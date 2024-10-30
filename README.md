@@ -18,10 +18,6 @@ Now you can run the nodes. You have different options:
    ```
    ros2 launch arm_description display.launch.py
    ```
- - Load and spawn the arm in Gazebo
-   ```
-   ros2 launch arm_gazebo arm_world.launch.py
-   ```
  - Spawn the arm in Gazebo and Rviz with the position controller
    ```
    ros2 launch arm_gazebo arm_gazebo.launch.py
