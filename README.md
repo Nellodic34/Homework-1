@@ -30,9 +30,9 @@ Now you can run the nodes. You have different options:
    
    It is possible to change the default position command that will be published when running this node by changing the values in params.yaml, situated in the config folder of the arm_controller package.
 
-   Moreover, we added the possibility to change the position command at runtime by running the following command in a new terminal:
+   Moreover, it is possible to change the position command at runtime by running the following command in a new terminal:
    ```
    . install/setup.bash
    ros2 param set /arm_controller_node desired_param "[x.x, x.x, x.x, x.x]"
    ```
-   Changing the position command will make the manipulator to move in the new assigned position.
+   Changing the position command will make the manipulator move in the new assigned position.
