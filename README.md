@@ -32,7 +32,7 @@ Now you can run the nodes. You have different options:
 
    Moreover, we added the possibility to change the position command at runtime by running the following command in a new terminal:
    ```
+   . install/setup.bash
    ros2 param set /arm_controller_node desired_param "[x.x, x.x, x.x, x.x]"
    ```
-   Notice: in order to change the position command in a new terminal you need to run the install command we saw before.
    Changing the position command will make the manipulator to move in the new assigned position.
